@@ -8,7 +8,6 @@ public class Client {
         boolean isGameOver = false; // Used to stop the game
         int count = 0; // Used to count categories found
         String[][] board;
-        String[][] gameKey;
         boolean correctAnswer = false;
 
 
