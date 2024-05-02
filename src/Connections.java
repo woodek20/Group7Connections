@@ -213,18 +213,18 @@ public class Connections {
         //initialize rand
         Random rand = new Random();
         // Picking the four categories through random number generation
-        a = rand.nextInt(0,17);
-        b = rand.nextInt(0,17);
+        a = rand.nextInt(0,18);
+        b = rand.nextInt(0,18);
         while(b == a){ // The following while loops ensure no categories are repeated
-            b = rand.nextInt(0,17);
+            b = rand.nextInt(0,18);
         }
-        c = rand.nextInt(0,17);
+        c = rand.nextInt(0,18);
         while(c == b || c == a){
-            c = rand.nextInt(0,17);
+            c = rand.nextInt(0,18);
         }
-        d = rand.nextInt(0,17);
+        d = rand.nextInt(0,18);
         while(d == c || d == b || d == a){
-            d = rand.nextInt(0,17);
+            d = rand.nextInt(0,18);
         }
 
 
